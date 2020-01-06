@@ -1,0 +1,10 @@
+﻿*.ipch
+*.suo
+*.db
+*.user
+*.lastbuildstate
+*.tlog
+*.idb
+*.log
+*.pdb
+*.obj

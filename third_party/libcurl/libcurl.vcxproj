@@ -742,141 +742,141 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL wolfSSL|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL wolfSSL|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL wolfSSL|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL wolfSSL|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL wolfSSL|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL wolfSSL|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL wolfSSL|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug|x64'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL wolfSSL|x64'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL wolfSSL|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL wolfSSL|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL wolfSSL|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL wolfSSL|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL wolfSSL|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL wolfSSL|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL wolfSSL|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release|x64'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL wolfSSL|x64'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB wolfSSL|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB wolfSSL|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB wolfSSL|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB wolfSSL|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB wolfSSL|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB wolfSSL|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB wolfSSL|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB wolfSSL|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB wolfSSL|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB wolfSSL|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB wolfSSL|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB wolfSSL|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL|x64'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL|x64'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI - DLL WinIDN|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI - DLL WinIDN|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI - DLL WinIDN|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI|Win32'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI - DLL WinIDN|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI - DLL WinIDN|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI - DLL WinIDN|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI - DLL WinIDN|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI|x64'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL Windows SSPI - DLL WinIDN|x64'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI - DLL WinIDN|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI - DLL WinIDN|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI - DLL WinIDN|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI|Win32'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI - DLL WinIDN|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI - DLL WinIDN|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI - DLL WinIDN|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI - DLL WinIDN|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI|x64'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL Windows SSPI - DLL WinIDN|x64'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL - DLL LibSSH2|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL - DLL LibSSH2|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL - DLL LibSSH2|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL - DLL LibSSH2|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL - DLL LibSSH2|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL - DLL LibSSH2|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL - DLL LibSSH2|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL OpenSSL - DLL LibSSH2|x64'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL - DLL LibSSH2|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL - DLL LibSSH2|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL - DLL LibSSH2|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL - DLL LibSSH2|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL - DLL LibSSH2|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL - DLL LibSSH2|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL - DLL LibSSH2|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL Release - DLL OpenSSL - DLL LibSSH2|x64'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL OpenSSL|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL OpenSSL|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL OpenSSL|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL OpenSSL|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL OpenSSL|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL OpenSSL|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL OpenSSL - DLL LibSSH2|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL OpenSSL - DLL LibSSH2|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL OpenSSL - DLL LibSSH2|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL OpenSSL - DLL LibSSH2|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL OpenSSL - DLL LibSSH2|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL OpenSSL - DLL LibSSH2|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL Windows SSPI|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL Windows SSPI - DLL WinIDN|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL Windows SSPI|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL Windows SSPI - DLL WinIDN|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL Windows SSPI|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL Windows SSPI - DLL WinIDN|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL Windows SSPI|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL Windows SSPI - DLL WinIDN|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL Windows SSPI|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL Windows SSPI - DLL WinIDN|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL Windows SSPI|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - DLL Windows SSPI - DLL WinIDN|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB OpenSSL|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB OpenSSL|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB OpenSSL|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB OpenSSL|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB OpenSSL|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB OpenSSL|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB OpenSSL - LIB LibSSH2|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB OpenSSL - LIB LibSSH2|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB OpenSSL - LIB LibSSH2|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB OpenSSL - LIB LibSSH2|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB OpenSSL - LIB LibSSH2|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Debug - LIB OpenSSL - LIB LibSSH2|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL OpenSSL|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL OpenSSL|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL OpenSSL|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL OpenSSL|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL OpenSSL|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL OpenSSL|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL OpenSSL - DLL LibSSH2|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL OpenSSL - DLL LibSSH2|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL OpenSSL - DLL LibSSH2|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL OpenSSL - DLL LibSSH2|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL OpenSSL - DLL LibSSH2|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL OpenSSL - DLL LibSSH2|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL Windows SSPI|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL Windows SSPI - DLL WinIDN|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL Windows SSPI|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL Windows SSPI - DLL WinIDN|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL Windows SSPI|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL Windows SSPI - DLL WinIDN|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL Windows SSPI|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL Windows SSPI - DLL WinIDN|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL Windows SSPI|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL Windows SSPI - DLL WinIDN|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL Windows SSPI|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - DLL Windows SSPI - DLL WinIDN|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB OpenSSL|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB OpenSSL|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB OpenSSL|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB OpenSSL|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB OpenSSL|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB OpenSSL|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB OpenSSL - LIB LibSSH2|Win32'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB OpenSSL - LIB LibSSH2|Win32'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB OpenSSL - LIB LibSSH2|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB OpenSSL - LIB LibSSH2|x64'">$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB OpenSSL - LIB LibSSH2|x64'">$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='LIB Release - LIB OpenSSL - LIB LibSSH2|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">$(ProjectName)d</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='DLL Debug - DLL wolfSSL|Win32'">$(ProjectName)d</TargetName>
@@ -925,6 +925,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -959,6 +960,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -993,6 +995,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1026,6 +1029,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1059,6 +1063,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1091,6 +1096,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1125,6 +1131,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1156,6 +1163,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1181,6 +1189,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1201,6 +1210,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1224,6 +1234,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1247,6 +1258,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1267,6 +1279,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1287,6 +1300,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1310,6 +1324,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1333,6 +1348,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1361,6 +1377,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1395,6 +1412,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1428,6 +1446,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1460,6 +1479,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1491,6 +1511,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1526,6 +1547,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1560,6 +1582,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1593,6 +1616,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1626,6 +1650,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1659,6 +1684,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1691,6 +1717,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1722,6 +1749,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1753,6 +1781,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1787,6 +1816,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1820,6 +1850,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1852,6 +1883,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1875,6 +1907,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1898,6 +1931,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1918,6 +1952,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1941,6 +1976,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1961,6 +1997,7 @@
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1981,6 +2018,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2004,6 +2042,7 @@
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2027,6 +2066,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2047,6 +2087,7 @@
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2070,6 +2111,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2090,6 +2132,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2113,6 +2156,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2133,6 +2177,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2156,6 +2201,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2176,6 +2222,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2199,6 +2246,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2219,6 +2267,7 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2239,6 +2288,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2262,6 +2312,7 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2285,6 +2336,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2305,6 +2357,7 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2328,6 +2381,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2348,6 +2402,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -2371,6 +2426,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>

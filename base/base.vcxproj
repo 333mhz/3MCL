@@ -70,19 +70,19 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir>$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir>$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir>$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <OutDir>$(SolutionDir)bin\\$(PlatformTarget)_$(Configuration)</OutDir>
     <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -94,6 +94,7 @@
       <PreprocessorDefinitions>NOMINMAX;GOOGLE_GLOG_DLL_DECL=;WIN32;CURL_STATICLIB;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)third_party/glog/src/windows;$(SolutionDir)third_party/rapidjson;$(SolutionDir)third_party/curlcpp/include;$(SolutionDir)third_party/libcurl/include;$(SolutionDir)third_party/cryptopp563;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -108,6 +109,7 @@
       <PreprocessorDefinitions>NOMINMAX;GOOGLE_GLOG_DLL_DECL=;WIN32;CURL_STATICLIB;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalIncludeDirectories>$(SolutionDir)third_party/glog/src/windows;$(SolutionDir)third_party/rapidjson;$(SolutionDir)third_party/curlcpp/include;$(SolutionDir)third_party/libcurl/include;$(SolutionDir)third_party/cryptopp563;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -124,6 +126,7 @@
       <PreprocessorDefinitions>NOMINMAX;GOOGLE_GLOG_DLL_DECL=;WIN32;CURL_STATICLIB;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)third_party/glog/src/windows;$(SolutionDir)third_party/rapidjson;$(SolutionDir)third_party/curlcpp/include;$(SolutionDir)third_party/libcurl/include;$(SolutionDir)third_party/cryptopp563;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -142,6 +145,7 @@
       <PreprocessorDefinitions>NOMINMAX;GOOGLE_GLOG_DLL_DECL=;WIN32;CURL_STATICLIB;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <AdditionalIncludeDirectories>$(SolutionDir)third_party/glog/src/windows;$(SolutionDir)third_party/rapidjson;$(SolutionDir)third_party/curlcpp/include;$(SolutionDir)third_party/libcurl/include;$(SolutionDir)third_party/cryptopp563;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

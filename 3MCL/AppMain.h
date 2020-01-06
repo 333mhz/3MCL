@@ -26,11 +26,11 @@ protected:
 
 	bool RegisterMCProtocol();
 
-	void EnableIEFeatures();
+	//void EnableIEFeatures();
 
-	void EnableMiniblink();
+	//void EnableMiniblink();
 
-	bool EnablePythonEmbed();
+	//bool EnablePythonEmbed();
 
 	//void OnDownloadUpdateSuccess(std::wstring update_exe_path, std::wstring app_name, std::wstring version, std::wstring note);
 	

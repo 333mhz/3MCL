@@ -1,25 +1,38 @@
 #include "AppMain.h"
 #include "glog/logging.h"
 #include "base/PathService.h"
+#include "base/system_info.h"
+#include "base/asynchronous_task_dispatch.h"
+
+#include "DataReport/DataReport.h"
 
 Application::Application(HINSTANCE app_instance)
 {
-	::OleInitialize(nullptr);
+	//Initialize Com API
 	::CoInitialize(0);
+	//Initialize ActiveX
+	::OleInitialize(nullptr);
 
+	//Initialize google log
 	init_glog();
-	//AsyncTaskDispatch::init_main_thread_dispatcher();
+	
+	//Async Tash Dispatcher
+	AsyncTaskDispatch::init_main_thread_dispatcher();
+
+	//DUI Instance Set
 	//CPaintManagerUI::SetInstance(app_instance);
 }
 
 Application::~Application()
 {
+	//destroy process mutex
 	if (singleton_process_runnging_lock_)
 	{
 		CloseHandle(singleton_process_runnging_lock_);
 		singleton_process_runnging_lock_ = nullptr;
 	}
 
+	//destroy process share memory
 	if (singleton_process_exiting_share_memory_)
 	{
 		CloseHandle(singleton_process_exiting_share_memory_);
@@ -30,11 +43,59 @@ Application::~Application()
 	::OleUninitialize();
 }
 
+//Application Main Loop
 int Application::run()
 {
+	//Singleton
+	if (!handle_singleton_process())
+		return 1;
+	
+	DataReport::global()->report_event(APP_STARTUP_EVENT);
+
+	//MC Protocol
+	if (!RegisterMCProtocol())
+	{
+		DataReport::global()->report_event(REGISTER_MC_PROTOCOL_FAILED_EVENT);
+	}
+
+	//Browser Setting
+	//TODO
+
+	//AppUpdate
+	//TODO
+
+	//AppConfig
+	//TODO
+
+	//IPv6 ygg
+	//TODO
+
+	//Network Dispatcher
+	//TODO
+
+	//Self Resource Extraction
+	//lambda
+	std::thread extrace_resource([]()
+		{
+
+		});
+	extrace_resource.detach();
+
+	//Main Wnd
+	//TODO
+
+	//Exit Process
+
+	signal_exiting();
+
+	DataReport::global()->report_event(APP_EXIT_EVENT);
+
+
+
 	return 0;
 }
 
+//Google Log
 void Application::init_glog()
 {
 	google::InitGoogleLogging("3MCL");
@@ -56,6 +117,7 @@ void Application::init_glog()
 	google::SetLogDestination(google::GLOG_FATAL, "");
 }
 
+//Singleton process
 bool Application::handle_singleton_process()
 {
 	HANDLE exist_exiting_process_handle = ::OpenFileMappingW(FILE_MAP_READ, FALSE, L"333mhz_minecraft_launcher_exiting_map");
@@ -78,6 +140,7 @@ bool Application::handle_singleton_process()
 		exist_exiting_process_handle = nullptr;
 	}
 
+	//Create Mutex 
 	singleton_process_runnging_lock_ = ::CreateMutexW(nullptr, TRUE, L"333mhz_minecraft_launcher_running");
 	auto err = ::GetLastError();
 	if (err == ERROR_ALREADY_EXISTS || err == ERROR_ACCESS_DENIED)
@@ -106,6 +169,7 @@ bool Application::handle_singleton_process()
 	return true;
 }
 
+
 void Application::signal_exiting()
 {
 	singleton_process_exiting_share_memory_ = ::CreateFileMappingW(INVALID_HANDLE_VALUE, nullptr, PAGE_READWRITE, 0, sizeof(DWORD), L"333mhz_minecraft_launcher_exiting_map");
@@ -116,9 +180,54 @@ void Application::signal_exiting()
 		::UnmapViewOfFile(ptr);
 	}
 }
+
+bool Application::RegisterMCProtocol()
+{
+	bool ret_val = true;
+	CRegKey key;
+	auto ret = key.Create(HKEY_CURRENT_USER, L"SOFTWARE\\Classes\\mc\\shell\\open\\command");
+	if (ret == 0)
+	{
+		wchar_t path[1024] = { 0 };
+		GetModuleFileNameW(nullptr, path, 1024);
+		std::wstring val = L"\"";
+		val += path;
+		val += L"\" %1";
+		key.SetStringValue(NULL, val.c_str(), REG_SZ);
+
+		key.Close();
+	}
+	else
+	{
+		ret_val = false;
+		LOG(ERROR) << "create reg key formc protocol failed with err " << ret;
+	}
+
+	ret = key.Open(HKEY_CURRENT_USER, L"SOFTWARE\\Classes\\mc", KEY_WRITE | KEY_WOW64_64KEY);
+	if (0 == ret)
+	{
+		auto ret1 = key.SetStringValue(NULL, L"URL:mc Protocol", REG_SZ);
+		auto ret2 = key.SetStringValue(L"URL Protocol", L"", REG_SZ);
+		if (ret1 != 0 || ret2 != 0)
+		{
+			ret_val = false;
+			LOG(ERROR) << "set reg key value for mc protocol failed with err " << ret1 << " " << ret2;
+		}
+	}
+	else
+	{
+		ret_val = false;
+		LOG(ERROR) << "open reg key for mc protocol failed with err " << ret;
+	}
+
+	return ret_val;
+}
+
+//Win Main
 int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	LPWSTR lpCmdLine, int nCmdShow)
 {
 	Application app(hInstance);
+
 	return app.run();
 }

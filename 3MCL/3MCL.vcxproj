@@ -173,6 +173,9 @@
     <ProjectReference Include="..\base\base.vcxproj">
       <Project>{76c61353-83d2-4112-b520-e65212a13d8a}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\DataReport\DataReport.vcxproj">
+      <Project>{4d784aac-ccc2-4f73-8777-d71fcbb1f8ec}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\third_party\curlcpp\curlcpp.vcxproj">
       <Project>{666952b8-5188-454d-9b2a-8fa0b7348702}</Project>
     </ProjectReference>

@@ -14,7 +14,7 @@
 #include "files.h"
 #include "ZipCmdProxy.h"
 #include "JavaTest.h"
-#include "craftbox/JavaEnvironment.h"
+#include "3MCL/JavaEnvironment.h"
 #include "DataReport/DataReport.h"
 
 #include <shlobj.h>

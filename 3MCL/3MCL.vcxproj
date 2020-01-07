@@ -92,12 +92,13 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>GOOGLE_GLOG_DLL_DECL=;WIN32;UILIB_STATIC;CURL_STATICLIB;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>false</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)third_party/glog/src/windows;$(SolutionDir)third_party/rapidjson;$(SolutionDir)third_party;$(SolutionDir)third_party/libcurl/include;$(SolutionDir)third_party/curlcpp/include;$(SolutionDir)third_party/cryptopp563;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -114,6 +115,7 @@
       <ConformanceMode>false</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)third_party/glog/src/windows;$(SolutionDir)third_party/rapidjson;$(SolutionDir)third_party;$(SolutionDir)third_party/libcurl/include;$(SolutionDir)third_party/curlcpp/include;$(SolutionDir)third_party/cryptopp563;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -133,6 +135,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)third_party/glog/src/windows;$(SolutionDir)third_party/rapidjson;$(SolutionDir)third_party;$(SolutionDir)third_party/libcurl/include;$(SolutionDir)third_party/curlcpp/include;$(SolutionDir)third_party/cryptopp563;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -153,6 +156,7 @@
       <ConformanceMode>false</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)third_party/glog/src/windows;$(SolutionDir)third_party/rapidjson;$(SolutionDir)third_party;$(SolutionDir)third_party/libcurl/include;$(SolutionDir)third_party/curlcpp/include;$(SolutionDir)third_party/cryptopp563;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -165,9 +169,33 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AppMain.cpp" />
+    <ClCompile Include="AppUpdate.cpp" />
+    <ClCompile Include="DefaultServerList.cpp" />
+    <ClCompile Include="DL_AppConfig.cpp" />
+    <ClCompile Include="HandleDataCallback.cpp" />
+    <ClCompile Include="JavaEnvironment.cpp" />
+    <ClCompile Include="MinecraftLauncher.cpp" />
+    <ClCompile Include="MinecraftProcessInfo.cpp" />
+    <ClCompile Include="MinecraftUserIdentityFactory.cpp" />
+    <ClCompile Include="VL_ConfigWnd.cpp" />
+    <ClCompile Include="VL_MainWnd.cpp" />
+    <ClCompile Include="WindowFinder.cpp" />
+    <ClCompile Include="YggdrasilPersistence.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppMain.h" />
+    <ClInclude Include="AppUpdate.h" />
+    <ClInclude Include="DefaultServerList.h" />
+    <ClInclude Include="DL_AppConfig.h" />
+    <ClInclude Include="HandleDataCallback.h" />
+    <ClInclude Include="JavaEnvironment.h" />
+    <ClInclude Include="MinecraftLauncher.h" />
+    <ClInclude Include="MinecraftProcessInfo.h" />
+    <ClInclude Include="MinecraftUserIdentityFactory.h" />
+    <ClInclude Include="VL_ConfigWnd.h" />
+    <ClInclude Include="VL_MainWnd.h" />
+    <ClInclude Include="WindowFinder.h" />
+    <ClInclude Include="YggdrasilPersistence.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\base\base.vcxproj">
@@ -176,8 +204,17 @@
     <ProjectReference Include="..\DataReport\DataReport.vcxproj">
       <Project>{4d784aac-ccc2-4f73-8777-d71fcbb1f8ec}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\minecraft_common\minecraft_common.vcxproj">
+      <Project>{12ac9e77-a0c2-4731-b304-47b9d38864a3}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\cryptopp563\cryptlib.vcxproj">
+      <Project>{3423ec9a-52e4-4a4d-9753-edebc38785ef}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\third_party\curlcpp\curlcpp.vcxproj">
       <Project>{666952b8-5188-454d-9b2a-8fa0b7348702}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\DuiLib\DuiLib_Static.vcxproj">
+      <Project>{e106acd7-4e53-4aee-942b-d0dd426db34e}</Project>
     </ProjectReference>
     <ProjectReference Include="..\third_party\libcurl\libcurl.vcxproj">
       <Project>{da6f56b4-06a4-441d-ad70-ac5a7d51fadb}</Project>

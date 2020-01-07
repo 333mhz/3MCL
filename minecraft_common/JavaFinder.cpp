@@ -7,7 +7,7 @@
 #include "base\PathService.h"
 #include "JavaTest.h"
 #include "base\system_info.h"
-#include "craftbox\JavaEnvironment.h"
+#include "3MCL\JavaEnvironment.h"
 
 #include <atlbase.h>
 #include <atlstr.h>

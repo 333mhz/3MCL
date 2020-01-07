@@ -6,6 +6,7 @@
 
 #include "DataReport/DataReport.h"
 
+#include "VL_MainWnd.h"
 Application::Application(HINSTANCE app_instance)
 {
 	//Initialize Com API
@@ -82,8 +83,11 @@ int Application::run()
 	extrace_resource.detach();
 
 	//Main Wnd
-	//TODO
-
+	auto wnd_obj = std::make_shared<MainWnd>();
+	//HWND main_wnd = wnd_obj->Create(0, mcfe::g_app_name, UI_WNDSTYLE_DIALOG | WS_MINIMIZEBOX, 0, 0, 0, 1024, 720);
+	wstring bdir = L"D:\\Minecraft\\Minecraft1.12.2_TEST\\.minecraft";
+	wstring vdir = L"1.12.2";
+	wnd_obj->launch_game(bdir,vdir);
 	//Exit Process
 
 	signal_exiting();

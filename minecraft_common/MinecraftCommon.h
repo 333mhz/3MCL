@@ -11,7 +11,6 @@ namespace mcfe
 	enum UserAccountType
 	{
 		kOffline = 0,
-		kCraftBox,
 		kOfficial,
 	};
 

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="10.3" multi-file="no">
+  <meta>
+    <name>3MCL</name>
+    <authors>333mhz</authors>
+    <description>A 333mhz Minecraft Launcher design.</description>
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="ui-window" type="UIWindow" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-panel" type="UIPanel" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-button" type="UIButton" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-text-box" type="UITextBox" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-area" type="UIArea" />
+        <value>2</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>155</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-window" type="UIWindow" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-panel" type="UIPanel" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-button" type="UIButton" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-text-box" type="UITextBox" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-area" type="UIArea" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="mind-map-start" type="MindMapStart" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.UserInterfaceDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.MindMap</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management>
+    <persons>
+      <person id="P7f534205f7b54761afe7bd8f4312e69c">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <macros />
+  <items>
+    <item id="di932292453673083690" cid="ELEM001" type="ui-area" name="Bg Area1" style-class="" owner="di245238754494080197" visibility="package" change-tracking-state="added" creator="P7f534205f7b54761afe7bd8f4312e69c" creation-date="01/07/2020 09:42:47">
+      <style class="default" />
+    </item>
+    <item id="di894070271478749136" cid="STR001" type="mind-map-start" name="MindMap1" style-class="" visibility="package" creator="P7f534205f7b54761afe7bd8f4312e69c" creation-date="01/07/2020 09:56:48">
+      <style class="default" />
+    </item>
+  </items>
+  <models>
+    <model id="p12b78a6a8f0f488e9aa9fb829e2b615b_718426740" name="Model 1" namespace="" order-index="1" expanded="true">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>01/07/2020 09:33:32</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="user-interface" id="p36af18c29ef843108c9acd47b97b62eb_171641784" name="UserInterfaceDiagram1" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-90,-120" zoom="1.2">
+        <size width="1" height="1" unit="px" type="ExpandableRightDown" />
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>01/07/2020 09:33:32</creation-date>
+          <change-date>01/07/2020 09:55:26</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di245238754494080197" cid="WND001" type="ui-window" name="333mhz Minecraft Launcher" style-class="" visibility="package" change-tracking-state="added" creator="P7f534205f7b54761afe7bd8f4312e69c" creation-date="01/07/2020 09:33:49">
+            <style class="default" />
+            <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
+          </item>
+          <item id="di517868856277858162" cid="TXT001" type="ui-text-box" name="TextBox1" style-class="" owner="di245238754494080197" visibility="package" change-tracking-state="added" creator="P7f534205f7b54761afe7bd8f4312e69c" creation-date="01/07/2020 09:42:29">
+            <style class="default" />
+          </item>
+          <item id="di380070643581726027" cid="BTN001" type="ui-button" name="[Press to Launch]" style-class="" owner="di245238754494080197" visibility="package" change-tracking-state="added" creator="P7f534205f7b54761afe7bd8f4312e69c" creation-date="01/07/2020 09:35:36">
+            <style class="default" />
+          </item>
+          <item id="di615888701206944016" cid="BTN002" type="ui-button" name="Cfg" style-class="" owner="di245238754494080197" visibility="package" change-tracking-state="added" creator="P7f534205f7b54761afe7bd8f4312e69c" creation-date="01/07/2020 09:38:25">
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di245238754494080197" iid="bb8f65286d79444fa714530099d40445" creation-date="01/07/2020 09:33:49" order-index="1" type="ui-window">
+            <layout ax="-33" ay="-20" awidth="854" aheight="480" x="-33" y="-20" width="854" height="480" container-layout="simple" />
+          </item>
+          <item id="di932292453673083690" iid="a95b6ce370e346ac9924923a9b2ec7ed" container="di245238754494080197" container-iid="bb8f65286d79444fa714530099d40445" dock="Fill" creation-date="01/07/2020 09:42:47" order-index="3" type="ui-area">
+            <layout ax="-23" ay="15" awidth="834" aheight="435" x="-23" y="15" width="834" height="435" container-layout="stack" />
+          </item>
+        </layer>
+        <layer name="Layer 3" visible="true" enabled="true" locked="false">
+          <item id="di380070643581726027" iid="fc97eb71e7d34acead97789096a29d74" container="di245238754494080197" container-iid="bb8f65286d79444fa714530099d40445" creation-date="01/07/2020 09:35:36" order-index="2" type="ui-button">
+            <layout ax="568" ay="374" awidth="181" aheight="74" x="568" y="374" width="181" height="74" />
+          </item>
+          <item id="di615888701206944016" iid="360b5521d5df403aaba58c015fa65e3f" container="di245238754494080197" container-iid="bb8f65286d79444fa714530099d40445" creation-date="01/07/2020 09:38:25" order-index="4" type="ui-button">
+            <layout ax="759" ay="374" awidth="38" aheight="74" x="759" y="374" width="38" height="74" />
+          </item>
+          <item id="di517868856277858162" iid="bcb45a4273e94446a236bb634ee31da3" container="di245238754494080197" container-iid="bb8f65286d79444fa714530099d40445" creation-date="01/07/2020 09:42:29" order-index="5" type="ui-text-box">
+            <layout ax="-9" ay="376" awidth="289" aheight="74" x="-9" y="376" width="289" height="74" />
+          </item>
+        </layer>
+        <layer name="Layer 4" visible="true" enabled="true" locked="false" />
+        <layer name="Layer 5" visible="true" enabled="true" locked="false" />
+        <layer name="Layer 6" visible="true" enabled="true" locked="false" />
+        <layer name="Layer 7" visible="true" enabled="true" locked="false" />
+        <layer name="Layer 8" visible="true" enabled="true" locked="false" />
+        <layer name="Layer 9" visible="true" enabled="true" locked="false" />
+        <layer name="Layer 10" visible="true" enabled="true" locked="false" />
+        <layer name="Layer 11" visible="true" enabled="true" locked="false" />
+      </diagram>
+      <diagram type="mind-map" id="pf5d73790c9a44f0abd667a4e4f6481bc_936519307" name="MindMap1" order-index="2" overview-order-index="0" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="0,-100">
+        <size width="1" height="1" unit="px" type="ExpandableRightDown" />
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>01/07/2020 09:56:48</creation-date>
+          <change-date>01/07/2020 09:56:48</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di894070271478749136" iid="c8515785ebd24a89ad91f0929e762a95" creation-date="01/07/2020 09:56:48" order-index="0" type="entity">
+            <layout ax="631.5" ay="336.5" awidth="150" aheight="80" x="631.5" y="336.5" width="150" height="80" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
